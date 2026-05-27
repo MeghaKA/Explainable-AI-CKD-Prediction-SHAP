@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Explainable AI](https://img.shields.io/badge/XAI-SHAP-orange)
+![Healthcare AI](https://img.shields.io/badge/Healthcare-AI-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Research](https://img.shields.io/badge/Research-IEEE%20Style-blueviolet)
+
 # Explainable Clinical Risk Prediction using Machine Learning and SHAP
 
 ### Author: Megha K A
@@ -172,9 +179,22 @@ Unlike traditional black-box systems, SHAP explanations improve interpretability
 
 ---
 
-# Preliminary IEEE-style research manuscript included in this repository:
+## 📄 Research Paper
 
-“Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP-based Interpretability”
+This repository includes an IEEE-style draft research manuscript based on the implemented Explainable AI healthcare prediction framework.
+
+### Paper Title
+**Explainable Machine Learning Framework for Chronic Kidney Disease Prediction Using SHAP-Based Interpretability**
+
+### Research Areas
+- Explainable AI (XAI)
+- Healthcare Machine Learning
+- SHAP Interpretability
+- Clinical Risk Prediction
+- Chronic Kidney Disease Prediction
+
+📄 Paper Included:
+`IEEE_CKD_Research_Paper_MeghaKA.pdf`
 
 ---
 
@@ -191,9 +211,12 @@ Unlike traditional black-box systems, SHAP explanations improve interpretability
 
 # Repository Structure
 
- ├── Explainabele_ckd.ipynb
+ ├── Explainabele_CKD_SHAP.ipynb
  ├── README.md 
  ├── Explainable AI for CKD Prediction using Machine Learning and SHAP.pdf
+ ├── IEEE_CKD_Research_Paper_MeghaKA.Pdf
+ ├── LICENSE
+ ├── README.md
  ├── shap_summary_ckd.png 
  ├── roc_curve.png
  ├── confusion_matrix.png
@@ -206,3 +229,29 @@ Unlike traditional black-box systems, SHAP explanations improve interpretability
 
 Megha K A  
 Machine Learning | Explainable AI | Healthcare AI | Clinical Decision Support Systems
+
+---
+
+## 🍴 Fork This Repository
+
+If you find this project useful for Explainable AI research, healthcare analytics, or machine learning learning purposes, feel free to fork and extend this repository.
+
+### Steps to Fork
+
+1. Click the **Fork** button at the top-right corner of this repository.
+
+2. Clone your forked repository:
+
+```bash
+git clone https://github.com/your-username/Explainable-CKD-Prediction-SHAP.git
+```
+
+3. Open the notebook using Jupyter Notebook or Google Colab.
+
+4. Install required libraries:
+
+```bash
+pip install shap scikit-learn pandas matplotlib
+```
+
+5. Run the notebook cells sequentially to reproduce the CKD prediction and SHAP explainability analysis.
