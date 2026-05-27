@@ -172,6 +172,12 @@ Unlike traditional black-box systems, SHAP explanations improve interpretability
 
 ---
 
+# Preliminary IEEE-style research manuscript included in this repository:
+
+“Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP-based Interpretability”
+
+---
+
 # Future Improvements
 
 - Multi-model comparison
