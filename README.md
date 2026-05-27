@@ -248,10 +248,12 @@ git clone https://github.com/your-username/Explainable-CKD-Prediction-SHAP.git
 
 3. Open the notebook using Jupyter Notebook or Google Colab.
 
-4. Install required libraries:
+4. ## ⚙️ Installation
+
+Install required dependencies using:
 
 ```bash
-pip install shap scikit-learn pandas matplotlib
+pip install -r requirements.txt
 ```
 
 5. Run the notebook cells sequentially to reproduce the CKD prediction and SHAP explainability analysis.
