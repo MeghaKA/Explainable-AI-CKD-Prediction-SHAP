@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project presents an interpretable Machine Learning framework for predicting Chronic Kidney Disease (CKD) and diabetes-related clinical risk using a Decision Tree Classifier integrated with Explainable AI (XAI) techniques.
+This project presents an interpretable Machine Learning framework for predicting Chronic Kidney Disease (CKD) risk using a Decision Tree Classifier integrated with Explainable AI (XAI) techniques.
 
 The primary objective of this project is not only to achieve strong predictive performance, but also to improve transparency, interpretability, and trust in healthcare AI systems using SHAP (SHapley Additive Explanations).
 
@@ -185,7 +185,7 @@ Unlike traditional black-box systems, SHAP explanations improve interpretability
 
 # Repository Structure
 
- ├── Explainabele_diabets_ckd.ipynb
+ ├── Explainabele_ckd.ipynb
  ├── README.md 
  ├── Explainable AI for CKD Prediction using Machine Learning and SHAP.pdf
  ├── shap_summary_ckd.png 
