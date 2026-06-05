@@ -194,7 +194,7 @@ This repository includes an IEEE-style draft research manuscript based on the im
 - Chronic Kidney Disease Prediction
 
 📄 Paper Included:
-`IEEE_CKD_Research_Paper_MeghaKA.pdf`
+`Explainable_ML_CKD_Prediction.pdf`
 
 ---
 
@@ -214,7 +214,7 @@ This repository includes an IEEE-style draft research manuscript based on the im
  ├── Explainabele_CKD_SHAP.ipynb
  ├── README.md 
  ├── Explainable AI for CKD Prediction using Machine Learning and SHAP.pdf
- ├── IEEE_CKD_Research_Paper_MeghaKA.Pdf
+ ├── Explainable_ML_CKD_Prediction.Pdf
  ├── LICENSE
  ├── README.md
  ├── shap_summary_ckd.png 
