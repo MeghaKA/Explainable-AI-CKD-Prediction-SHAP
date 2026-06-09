@@ -1,3 +1,5 @@
+# Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
 ![Explainable AI](https://img.shields.io/badge/XAI-SHAP-orange)
@@ -5,255 +7,191 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Research](https://img.shields.io/badge/Research-IEEE%20Style-blueviolet)
 
-# Explainable Clinical Risk Prediction using Machine Learning and SHAP
+---
 
-### Author: Megha K A
+## 📌 Overview
+
+This project proposes an **interpretable machine learning framework for Chronic Kidney Disease (CKD) prediction** using a Decision Tree classifier combined with **SHAP-based explainability**.
+
+The goal is to move beyond black-box prediction systems and provide **clinically interpretable AI models** that can support healthcare decision-making.
 
 ---
 
-## Project Overview
+## 🎯 Objectives
 
-This project presents an interpretable Machine Learning framework for predicting Chronic Kidney Disease (CKD) risk using a Decision Tree Classifier integrated with Explainable AI (XAI) techniques.
-
-The primary objective of this project is not only to achieve strong predictive performance, but also to improve transparency, interpretability, and trust in healthcare AI systems using SHAP (SHapley Additive Explanations).
-
-The project demonstrates how Explainable AI can support transparent clinical decision-support systems by identifying the most influential clinical features contributing to disease prediction.
-
----
-
-## Objectives
-
-- Predict Chronic Kidney Disease using Machine Learning
-- Apply Explainable AI techniques for transparency
-- Improve interpretability in healthcare AI systems
-- Analyze feature contributions affecting disease prediction
-- Demonstrate trustworthy AI-assisted clinical decision support
+- Develop a predictive model for CKD classification  
+- Apply SHAP-based explainability for interpretability  
+- Identify key clinical risk factors  
+- Improve transparency in healthcare AI systems  
+- Support clinical decision-making with interpretable ML  
 
 ---
 
-## Dataset Information
+## 🧠 Methodology
 
-- Dataset: Chronic Kidney Disease Dataset
-- Total Samples: 400
-- Features: 24 Clinical Attributes
-- Target Variable:
-  - CKD
-  - Not CKD
+The workflow includes:
 
-### Important Clinical Features
-- Hemoglobin (hemo)
-- Specific Gravity (sg)
-- Blood Urea (bu)
-- Serum Creatinine (sc)
-- Packed Cell Volume (pcv)
-- Hypertension (htn)
-- Red Blood Cell Count (rc)
-- Potassium (pot)
+- Data preprocessing and cleaning  
+- Handling missing values and encoding categorical variables  
+- Training a Decision Tree classifier  
+- Evaluating model performance  
+- Applying SHAP for global and local explanations  
 
 ---
 
-## Technologies Used
+## 📊 Dataset
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- SHAP
-- Jupyter Notebook
+- Source: UCI Chronic Kidney Disease Dataset  
+- Samples: 400  
+- Features: 24 clinical attributes  
+- Classes: CKD / Not CKD  
 
 ---
 
-# Machine Learning Workflow
-
-## Data Preprocessing
-- Removed unnecessary identifier columns
-- Converted categorical variables into numerical form
-- Handled missing values using mean imputation
-- Performed train-test splitting
-
-## Model Development
-- Decision Tree Classifier
-- SHAP Explainability Framework
-
-## Model Evaluation
-The model was evaluated using:
-- Accuracy Score
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC Score
-- Cross Validation
-- Confusion Matrix
-
----
-
-# Model Performance
+## 📈 Model Performance
 
 | Metric | Score |
-|---|---|
+|--------|------|
 | Accuracy | 1.00 |
-| ROC-AUC Score | 1.00 |
-| Average Cross Validation Score | 0.97 |
 | Precision | 1.00 |
 | Recall | 1.00 |
 | F1 Score | 1.00 |
-
-The model demonstrated strong predictive performance while maintaining interpretability through SHAP-based explanations.
-
----
-
-# Explainable AI (SHAP Analysis)
-
-SHAP explainability methods were applied to understand feature-level contributions influencing CKD prediction outcomes.
-
-## Key Explainability Insights
-
-The most influential clinical features identified were:
-
-- Hemoglobin (hemo)
-- Specific Gravity (sg)
-- Hypertension (htn)
-- Blood Urea (bu)
-- Packed Cell Volume (pcv)
-
-SHAP analysis enabled:
-- Global interpretation of model behavior
-- Local patient-level prediction explanations
-- Transparent clinical feature contribution analysis
+| ROC-AUC | 1.00 |
+| Cross Validation | 0.97 |
 
 ---
 
-# Visualizations
+## 🔍 Explainable AI (SHAP Analysis)
 
-## SHAP Summary Plot
+SHAP is used to interpret model predictions and identify clinically significant features.
 
-![SHAP Summary Plot](shap_summary_ckd.png)
-
-
-The SHAP Beeswarm plot demonstrates the global impact of clinical features influencing CKD prediction.
-
----
-
-## ROC Curve
-
-![ROC Curve](roc_curve.png)
-
-
-The ROC-AUC score of 1.00 indicates excellent classification capability between CKD and non-CKD classes.
+### Key Insights:
+- Hemoglobin is the most influential predictor  
+- Specific Gravity strongly impacts classification  
+- Hypertension and Blood Urea are key clinical indicators  
+- SHAP enables both global and patient-level interpretability  
 
 ---
 
-## Confusion Matrix
+# 📊 Results & Visualizations
 
-![Confusion Matrix](confusion_matrix.png)
-
-
-
-The confusion matrix demonstrates highly accurate classification performance with minimal prediction error.
-
----
-
-## Feature Importance Plot
-
-![Feature Importance](feature_importance.png)
-
-Feature importance analysis identified Hemoglobin and Specific Gravity as major predictors influencing CKD prediction.
-
----
-
-## Decision Tree Visualization
-
-
+## 🌳 Decision Tree Structure
 ![Decision Tree](decision_tree.png)
 
-The Decision Tree visualization improves interpretability by illustrating how clinical variables contribute to prediction decisions.
+---
+
+## 📉 Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
-# Research Significance
-
-This project demonstrates the importance of Explainable AI in healthcare applications by combining predictive performance with model transparency.
-
-Unlike traditional black-box systems, SHAP explanations improve interpretability and trustworthiness, making AI-assisted healthcare prediction systems more clinically understandable.
+## 📈 ROC Curve
+![ROC Curve](roc_curve.png)
 
 ---
 
-## 📄 Research Paper
-
-This repository includes an IEEE-style draft research manuscript based on the implemented Explainable AI healthcare prediction framework.
-
-### Paper Title
-**Explainable Machine Learning Framework for Chronic Kidney Disease Prediction Using SHAP-Based Interpretability**
-
-### Research Areas
-- Explainable AI (XAI)
-- Healthcare Machine Learning
-- SHAP Interpretability
-- Clinical Risk Prediction
-- Chronic Kidney Disease Prediction
-
-📄 Paper Included:
-`Explainable_ML_CKD_Prediction.pdf`
+## 🔥 SHAP Summary Plot
+![SHAP Summary](shap_summary_ckd.png)
 
 ---
 
-# Future Improvements
-
-- Multi-model comparison
-- Hyperparameter optimization
-- Deep learning explainability frameworks
-- External clinical dataset validation
-- Calibration analysis for healthcare reliability
-- Real-world healthcare deployment
+## 📊 Feature Importance
+![Feature Importance](feature_importance.png)
 
 ---
 
-# Repository Structure
+## 🧪 Interpretation of Results
 
- ├── Explainabele_CKD_SHAP.ipynb
- ├── README.md 
- ├── Explainable AI for CKD Prediction using Machine Learning and SHAP.pdf
- ├── Explainable_ML_CKD_Prediction.Pdf
- ├── LICENSE
- ├── README.md
- ├── shap_summary_ckd.png 
- ├── roc_curve.png
- ├── confusion_matrix.png
- ├── feature_importance.png 
- └── decision_tree.png 
+- The model achieves high predictive performance on CKD classification  
+- SHAP analysis improves interpretability by explaining feature contributions  
+- Clinical variables such as Hemoglobin and Specific Gravity dominate prediction behavior  
+- The framework demonstrates the importance of explainability in healthcare AI  
 
 ---
 
-# Author
+## 🧪 Technologies Used
 
-Megha K A  
-Machine Learning | Explainable AI | Healthcare AI | Clinical Decision Support Systems
+- Python  
+- Scikit-learn  
+- Pandas / NumPy  
+- Matplotlib  
+- SHAP  
+- Jupyter Notebook  
 
 ---
 
-## 🍴 Fork This Repository
+## 📄 Research Output
 
-If you find this project useful for Explainable AI research, healthcare analytics, or machine learning learning purposes, feel free to fork and extend this repository.
+This repository includes an IEEE-style research manuscript.
 
-### Steps to Fork
+A Zenodo DOI will be added upon publication for academic citation and archival.
 
-1. Click the **Fork** button at the top-right corner of this repository.
+---
 
-2. Clone your forked repository:
+## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/Explainable-CKD-Prediction-SHAP.git
-```
-
-3. Open the notebook using Jupyter Notebook or Google Colab.
-
-4. ## ⚙️ Installation
-
-Install required dependencies using:
-
-```bash
+git clone https://github.com/MeghaKA/Explainable-AI-CKD-Prediction-SHAP.git
+cd Explainable-AI-CKD-Prediction-SHAP
 pip install -r requirements.txt
-```
+jupyter notebook notebooks/CKD_SHAP.ipynb
 
-5. Run the notebook cells sequentially to reproduce the CKD prediction and SHAP explainability analysis.
+---
+
+## 📌 Future Work
+
+The current work can be extended in several directions to improve both predictive performance and clinical applicability:
+
+- Integration of multiple machine learning models (Random Forest, XGBoost, LightGBM)
+- Hyperparameter optimization for improved generalization
+- Validation on external and larger clinical datasets
+- Calibration analysis for improving clinical reliability
+- Development of a deployable clinical decision support system
+- Extension to multi-disease prediction frameworks
+- Exploration of advanced explainability techniques beyond SHAP (e.g., LIME, Integrated Gradients)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this work with proper attribution.
+
+See the LICENSE file for full details.
+
+---
+
+## 📖 Citation
+
+If you use this work in your research, please cite it as:
+
+Megha K A. (2026). *Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP-Based Interpretability*. GitHub Repository.
+
+Zenodo DOI (to be added after publication).
+
+---
+
+## 👩‍💻 Author & Research Profiles
+
+**Megha K A**  
+M.Sc. Data Analytics  
+Machine Learning | Explainable AI | Healthcare AI | Clinical Decision Support Systems  
+
+---
+
+###🔗 Professional Links
+
+- GitHub: https://github.com/MeghaKA  
+- LinkedIn: https://linkedin.com/in/meghaka1998  
+- Medium: https://medium.com/@meghaka1998  
+
+---
+
+### 📌 Research Focus Areas
+
+- Explainable Artificial Intelligence (XAI)  
+- Healthcare Machine Learning  
+- Clinical Risk Prediction Systems  
+- Interpretable AI for Medical Decision Support
+
