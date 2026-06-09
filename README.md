@@ -76,9 +76,7 @@ SHAP is used to interpret model predictions and identify clinically significant 
 # 📊 Results & Visualizations
 
 ## 🌳 Decision Tree Structure
-
-
-![Decision Tree](figures/decision_tree.png)
+![Decision Tree]<img src="figures/decision_tree.png" width="700"/>
 
 ---
 
@@ -134,15 +132,17 @@ A Zenodo DOI will be added upon publication for academic citation and archival.
 
 This project is fully reproducible using Python 3.10.
 
+--- 
+
 ### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/MeghaKA/Explainable-AI-CKD-Prediction-SHAP.git
 cd Explainable-AI-CKD-Prediction-SHAP
 
----
+--
 
-##📌 Future Work
+## 📌 Future Work
 
 The current work can be extended in several directions to improve both predictive performance and clinical applicability:
 
@@ -184,7 +184,7 @@ Machine Learning | Explainable AI | Healthcare AI | Clinical Decision Support Sy
 
 ---
 
-###🔗 Professional Links
+### 🔗 Professional Links
 
 - GitHub: https://github.com/MeghaKA  
 - LinkedIn: https://linkedin.com/in/meghaka1998  
