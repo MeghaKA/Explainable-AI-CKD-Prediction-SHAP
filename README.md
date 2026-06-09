@@ -122,9 +122,17 @@ SHAP is used to interpret model predictions and identify clinically significant 
 
 ## 📄 Research Output
 
-This repository includes an IEEE-style research manuscript.
+This repository includes:
 
-A Zenodo DOI will be added upon publication for academic citation and archival.
+- Research manuscript
+- Technical report
+- Jupyter notebook implementation
+- Figures and visualizations
+- Dataset resources
+
+### DOI
+
+https://doi.org/10.5281/zenodo.20616571
 
 ---
 
@@ -132,14 +140,26 @@ A Zenodo DOI will be added upon publication for academic citation and archival.
 
 This project is fully reproducible using Python 3.10.
 
---- 
-
 ### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/MeghaKA/Explainable-AI-CKD-Prediction-SHAP.git
 cd Explainable-AI-CKD-Prediction-SHAP
+```
 
+### 2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the notebook inside the `notebooks/` folder and run all cells sequentially.
 --
 
 ## 📌 Future Work
@@ -170,9 +190,10 @@ See the LICENSE file for full details.
 
 If you use this work in your research, please cite it as:
 
-Megha K A. (2026). *Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP-Based Interpretability*. GitHub Repository.
+Megha K A. (2026). *Explainable Machine Learning Framework for Chronic Kidney Disease Prediction using SHAP-Based Interpretability*. Zenodo.
 
-Zenodo DOI (to be added after publication).
+DOI: https://doi.org/10.5281/zenodo.20616571
+
 
 ---
 
