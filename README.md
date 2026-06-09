@@ -76,27 +76,27 @@ SHAP is used to interpret model predictions and identify clinically significant 
 # 📊 Results & Visualizations
 
 ## 🌳 Decision Tree Structure
-![Decision Tree](decision_tree.png)
+![Decision Tree](figures/decision_tree.png)
 
 ---
 
 ## 📉 Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](figures/confusion_matrix.png)
 
 ---
 
 ## 📈 ROC Curve
-![ROC Curve](roc_curve.png)
+![ROC Curve](figures/roc_curve.png)
 
 ---
 
 ## 🔥 SHAP Summary Plot
-![SHAP Summary](shap_summary_ckd.png)
+![SHAP Summary](figures/shap_summary_ckd.png)
 
 ---
 
 ## 📊 Feature Importance
-![Feature Importance](feature_importance.png)
+![Feature Importance](figures/feature_importance.png)
 
 ---
 
